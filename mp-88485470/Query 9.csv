@@ -1,0 +1,91 @@
+id,description,location,count,AVG(sentiment)
+10,physics,Florida,8,-0.5000
+9,teddys,Florida,8,-0.5000
+8,CDs,Florida,8,-0.5000
+7,games,Florida,8,-0.5000
+6,pens,Florida,8,-0.5000
+5,caps,Florida,8,-0.5000
+4,hoodies,Florida,8,-0.5000
+3,bats,Florida,8,-0.5000
+2,speakers,Florida,8,-0.5000
+1,shoes,Florida,8,-0.5000
+10,physics,Pennsylvania,38,-0.6053
+9,teddys,Pennsylvania,38,-0.6053
+8,CDs,Pennsylvania,38,-0.6053
+7,games,Pennsylvania,38,-0.6053
+6,pens,Pennsylvania,38,-0.6053
+5,caps,Pennsylvania,38,-0.6053
+4,hoodies,Pennsylvania,38,-0.6053
+3,bats,Pennsylvania,38,-0.6053
+2,speakers,Pennsylvania,38,-0.6053
+1,shoes,Pennsylvania,38,-0.6053
+10,physics,Wyoming,28,-0.0357
+9,teddys,Wyoming,28,-0.0357
+8,CDs,Wyoming,28,-0.0357
+7,games,Wyoming,28,-0.0357
+6,pens,Wyoming,28,-0.0357
+5,caps,Wyoming,28,-0.0357
+4,hoodies,Wyoming,28,-0.0357
+3,bats,Wyoming,28,-0.0357
+2,speakers,Wyoming,28,-0.0357
+1,shoes,Wyoming,28,-0.0357
+10,physics,Hawaii,20,-0.3500
+9,teddys,Hawaii,20,-0.3500
+8,CDs,Hawaii,20,-0.3500
+7,games,Hawaii,20,-0.3500
+6,pens,Hawaii,20,-0.3500
+5,caps,Hawaii,20,-0.3500
+4,hoodies,Hawaii,20,-0.3500
+3,bats,Hawaii,20,-0.3500
+2,speakers,Hawaii,20,-0.3500
+1,shoes,Hawaii,20,-0.3500
+10,physics,Illinois,20,-0.1500
+9,teddys,Illinois,20,-0.1500
+8,CDs,Illinois,20,-0.1500
+7,games,Illinois,20,-0.1500
+6,pens,Illinois,20,-0.1500
+5,caps,Illinois,20,-0.1500
+4,hoodies,Illinois,20,-0.1500
+3,bats,Illinois,20,-0.1500
+2,speakers,Illinois,20,-0.1500
+1,shoes,Illinois,20,-0.1500
+10,physics,Utah,34,-0.2647
+9,teddys,Utah,34,-0.2647
+8,CDs,Utah,34,-0.2647
+7,games,Utah,34,-0.2647
+6,pens,Utah,34,-0.2647
+5,caps,Utah,34,-0.2647
+4,hoodies,Utah,34,-0.2647
+3,bats,Utah,34,-0.2647
+2,speakers,Utah,34,-0.2647
+1,shoes,Utah,34,-0.2647
+10,physics,Oregon,20,-0.3000
+9,teddys,Oregon,20,-0.3000
+8,CDs,Oregon,20,-0.3000
+7,games,Oregon,20,-0.3000
+6,pens,Oregon,20,-0.3000
+5,caps,Oregon,20,-0.3000
+4,hoodies,Oregon,20,-0.3000
+3,bats,Oregon,20,-0.3000
+2,speakers,Oregon,20,-0.3000
+1,shoes,Oregon,20,-0.3000
+10,physics,"Ney York",23,-0.3478
+9,teddys,"Ney York",23,-0.3478
+8,CDs,"Ney York",23,-0.3478
+7,games,"Ney York",23,-0.3478
+6,pens,"Ney York",23,-0.3478
+5,caps,"Ney York",23,-0.3478
+4,hoodies,"Ney York",23,-0.3478
+3,bats,"Ney York",23,-0.3478
+2,speakers,"Ney York",23,-0.3478
+1,shoes,"Ney York",23,-0.3478
+10,physics,Nevada,11,-0.8182
+9,teddys,Nevada,11,-0.8182
+8,CDs,Nevada,11,-0.8182
+7,games,Nevada,11,-0.8182
+6,pens,Nevada,11,-0.8182
+5,caps,Nevada,11,-0.8182
+4,hoodies,Nevada,11,-0.8182
+3,bats,Nevada,11,-0.8182
+2,speakers,Nevada,11,-0.8182
+1,shoes,Nevada,11,-0.8182

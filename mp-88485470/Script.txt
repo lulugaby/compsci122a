@@ -1,0 +1,39 @@
+SELECT id , description AS d, COUNT(id)
+FROM topic,  blurt_analysis 
+WHERE id = topicid  GROUP BY id , d
+ORDER BY id;
+
+SELECT DISTINCT(u.name) name, COUNT(follower) followers 
+FROM celebrity c, follow, user u
+WHERE c.email = followee AND followee = u.email GROUP BY name ;
+
+SELECT u.name name, COUNT(text) blurts
+FROM celebrity c, blurt b, user u 
+WHERE c.email = b.email AND b.email = u.email GROUP BY  name
+ORDER BY blurts DESC; 
+
+SELECT DISTINCT(u.name) name
+FROM  celebrity c , follow , user u
+WHERE NOT EXISTS (SELECT c.email FROM follow WHERE c.email=follower )  AND c.email = u.email;
+
+SELECT name vendor, email, COUNT(follower) followers
+FROM vendor, vendor_ambassador, follow
+WHERE id=vendorid AND followee=email GROUP BY  vendorid, email;
+
+SELECT v.name vendor_name, COUNT(t.topicid) advertisement_gap
+FROM   vendor v, vendor_topics t , blurt_analysis b, user_ad u, advertisement a
+WHERE  v.id= t.vendorid AND b.topicid = t.topicid AND b.email != u.email  AND u.adid = a.id  AND a.vendorid = v.id GROUP BY v.name;
+
+SELECT DISTINCT(a.email) A, b.email B
+FROM blurt_analysis a, blurt_analysis b, follow
+Where a.topicid = b.topicid AND a.email!= follower AND b.email!= followee;
+
+SELECT DISTINCT a.followee A,  b.followee B , c.followee C
+FROM follow a , follow b ,follow c
+WHERE a.followee=b.follower AND b.followee=c.follower AND  a.followee!=c.follower
+ORDER BY a, b, c DESC;
+
+SELECT id,description, location, COUNT(blurtid) count, AVG(sentiment) 
+FROM topic   NATURAL JOIN blurt_analysis NATURAL JOIN  blurt 
+GROUP BY id,location
+HAVING AVG(sentiment) < 0;
